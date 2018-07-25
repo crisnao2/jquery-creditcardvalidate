@@ -3,8 +3,8 @@
 jQuery Credit Card Validate detects and validates credit card numbers. It’ll tell you the detected credit card type and whether the number length and Luhn checksum are valid for the type of card.
 
 ## Usage
-
-$(INPUT).validateCreditCard(function(result)
+```javascript
+$({{ INPUT }}).validateCreditCard(function(result)
 {
     console.log(result['card_type']['name']);
     console.log(result['card_type']['range']);
@@ -14,7 +14,7 @@ $(INPUT).validateCreditCard(function(result)
     console.log(result['luhn_valid']);
     console.log(result['length_valid']);
 });
-
+```
 # Download
 
 https://raw.githubusercontent.com/crisnao2/jquery-creditcardvalidate/master/jquery.creditCardValidate.js
