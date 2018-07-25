@@ -17,7 +17,7 @@ $({{ INPUT }}).validateCreditCard(function(result)
 ```
 # Download
 
-https://raw.githubusercontent.com/crisnao2/jquery-creditcardvalidate/master/jquery.creditCardValidate.js
+https://raw.githubusercontent.com/crisnao2/jquery-creditcardvalidate/master/build/jquery.creditCardValidate.js
 
 # CDN
 
